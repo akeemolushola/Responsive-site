@@ -169,6 +169,10 @@ section {
 }
 .about-us-img {
     width: 70%;
+    transition: all .6s;
+}
+.about-us-img:hover {
+    transform: scale(1.2);
 }
 /* --------------- End of About Section------------------- */
 
@@ -219,6 +223,7 @@ section {
 }
 .service:hover {
     background-color: #c7e0df;
+    transform: scale(1.1);
 }
     
     
@@ -246,6 +251,10 @@ section {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 3rem;
+    transition: all 1s;
+}
+.contact-container:hover {
+    transform: scale(1.1);
 }
 .container-holder {
     max-width: 350px;
